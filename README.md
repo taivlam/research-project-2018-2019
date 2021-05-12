@@ -27,11 +27,15 @@ The upload of this project serves two purposes:
 
 ## Requirements to Run the SageMath Script
 
+I am explaining this as if I am talking about the research project to another STEM college friend, who doesn't know the literal research topic I have learned but is certainly capable of learning the underlying mathematics.
+
 * SageMath (readily available in nearly all Linux distros - just don't use the non-LTS latest point release of Ubuntu, since SageMath may not be available immediately after the most current point release date)
 * Linux (makes installing and using SageMath a breeze, just like LaTeX)
 * 1 instance of the Terminal emulator for executing 1 Sage script
 
 ## Instructions
+
+For the small number of readers who are interested in executing the SageMath script yourself to see how it works (such as to rewrite the script in another language like Haskell or Lisp, among other motives), here are the instructions:
 
 1.  To run the script, edit Line 1 of the script to input the desired finite Coxeter group and the last line to change the name of the result Sage Object file as the output.
 2.  Run the script with:
