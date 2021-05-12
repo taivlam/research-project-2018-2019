@@ -30,7 +30,7 @@ The upload of this project serves two purposes:
 I am explaining this as if I am talking about the research project to another STEM college friend, who doesn't know the literal research topic I have learned but is certainly capable of learning the underlying mathematics.
 
 * SageMath (readily available in nearly all Linux distros - just don't use the non-LTS latest point release of Ubuntu, since SageMath may not be available immediately after the most current point release date)
-* Linux (makes installing and using SageMath a breeze, just like LaTeX)
+* Linux (makes installing and using SageMath a breeze, just like LaTeX - you can stll use Windows or MacOS, but it's much more of a hassle)
 * 1 instance of the Terminal emulator for executing 1 Sage script
 
 ## Instructions
