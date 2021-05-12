@@ -15,7 +15,7 @@ This computational mathematical physics research project was completed between 2
 
 The research project is titled, "Classification of Pseudo-cuspidal Points for Integrable Systems with Delta-Potential," and the abstract is as follows (with some loss of LaTeX math formatting):
 
-> For exactly solvable quantum integrable systems with delta potential, we use the language of kaleidoscopes to classify the fully determined stable solutions, which we call pseudo-cupsidal points, for any finite Coxeter group *G*, using an algorithm. The algorithm is written in SageMath and the pseudo-cupsidal points for Coxeter group types A<sub>1</sub> , C<sub>2</sub> , and F<sub>4</sub> are classified as test cases for the algorithm.
+> For exactly solvable quantum integrable systems with delta potential, we use the language of kaleidoscopes to classify the fully determined stable solutions, which we call pseudo-cupsidal points, for any finite Coxeter group *G*, using an algorithm. The algorithm is written in SageMath and the pseudo-cupsidal points for Coxeter group types *A<sub>1</sub>*, *C<sub>2</sub>*, and *F<sub>4</sub>* are classified as test cases for the algorithm.
 
 ### The Time Capsule Nature of This Project
 
