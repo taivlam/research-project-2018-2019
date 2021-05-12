@@ -15,8 +15,8 @@ This research project was completed at the end of May 2019.  Since then, many as
 
 Therefore, I have created 2 versions of my undergraduate research project:
 
-* the "Original" version is contained in the `Original` directory and contains all of my research project files in the exact state I turned in my project on May 24, 2019.
-* the "Current" version edited all of `print` statements written in Python 2 syntax so that now they read as Python 3 `print()` functions in the Sage script.  Ignoring all corresponding changes from Python 2 to 3 in the LaTeX writeup, the content of the project writeup is identical to the writeup from May 2019.
+* the "Original" version is contained in the `Original` directory and contains all of my research project files in the exact state I turned in my project on May 24, 2019, and
+* the "Current" version is located in the `Current` directory and has edited all of `print` statements written in Python 2 syntax so that now they read as Python 3 `print()` functions in the Sage script.  Ignoring all corresponding changes from Python 2 to 3 in the LaTeX writeup, the content of the project writeup is identical to the writeup from May 2019.  Hopefully, I won't have to make any more Sage/Python changes in the future.
 
 ## Purpose
 
@@ -27,7 +27,7 @@ The upload of this project serves two purposes:
 
 ## Requirements to Run the SageMath Script
 
-* SageMath (readily available in nearly all Linux distros - just don't use the non-LTS latest point release of Ubuntu, since SageMath may not be available immiediately after the most current point release date)
+* SageMath (readily available in nearly all Linux distros - just don't use the non-LTS latest point release of Ubuntu, since SageMath may not be available immediately after the most current point release date)
 * Linux (makes installing and using SageMath a breeze, just like LaTeX)
 * 1 instance of the Terminal emulator for executing 1 Sage script
 
