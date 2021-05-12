@@ -1,6 +1,13 @@
 # Research Project (2018-2019)
 
-Research Project from 2018-2019.
+This repository contains my research project from 2018 to 2019.
+
+## Purpose
+
+The upload of this project serves two purposes:
+
+1.  To be an easy to browse location of my research project to share in the future, and
+2.  To preserve my work, because I find myself relearning the lesson of backing up my files when I don't have a complete backup.
 
 ## Description
 
@@ -18,16 +25,21 @@ Therefore, I have created 2 versions of my undergraduate research project:
 * the "Original" version is contained in the `Original` directory and contains all of my research project files in the exact state I turned in my project on May 24, 2019 (except for the original Sage Object `.sobj` for F4); and
 * the "Current" version is located in the `Current` directory and has edited all of `print` statements written in Python 2 syntax so that now they read as Python 3 `print()` functions in the Sage script.  Ignoring all corresponding changes from Python 2 to 3 in the LaTeX writeup, the content of the project writeup is identical to the writeup from May 2019.  Hopefully, I won't have to make any more Sage/Python changes in the future.
 
-## Purpose
+### What I Learned (Not a Comprehensive List)
 
-The upload of this project serves two purposes:
+* SSH (to remotely execute the Sage script and leave it running with `screen`) 
+* SSHFS (to transfer files between a remote server)
+* Git version control (on Keybase)
+* LaTeX (BibTeX and bibliography styles, custom commands, nonbreaking spaces with `~`, and more)
+* how to read scientific papers.
 
-1.  To be an easy to browse location of my research project to share in the future, and
-2.  To preserve my work, because I find myself relearning the lesson of backing up my files when I don't have a complete backup.
+The last one needs some elaboration: although it is more of an art than a scientific procedure or reproducible algorithm, I learned reading scientific papers is so much easier when you have a clear motive or purpose and actionable goals when weeding the important details from the unimportant details while reading.
+
+* Most of all, I learned how to learn long-term physics - which is drastically different than taking semester-long physics classes.
 
 ## Requirements to Run the SageMath Script
 
-I am explaining this as if I am talking about the research project to another STEM college friend, who doesn't know the literal research topic I have learned but is certainly capable of learning the underlying mathematics.
+I am explaining this as if I am talking about the research project to another STEM college friend, who doesn't know the literal research topic I have learned but is certainly capable of understanding the underlying mathematics.
 
 * SageMath (readily available in nearly all Linux distros - just don't use the non-LTS latest point release of Ubuntu, since SageMath may not be available immediately after the most current point release date)
 * Linux (makes installing and using SageMath a breeze, just like LaTeX - you can stll use Windows or MacOS, but it's much more of a hassle)
@@ -54,6 +66,14 @@ $ python <coxeter-group>.sage.py
 This is because Python requires the SageMath library to be imported and thus doesn't "know" SageMath by default.  I believe it would require prefixing the Sage script with 1-line to run the Sage script in plain Python (back in 2019), but it can be avoided by simply using `sage` to execute the script.
 
 Since the SageMath migration to Python 3, I think Sage's default behavior is to add this import preamble to the corresponding `.py` file that is automatically generated, but that seems to be an improvement added to Sage since May 2019 - using `sage` to execute `.sage` scripts will always work.
+
+### Note for Windows Users and WSL
+
+For Windows 10 users who can't realistically install Linux on another machine and truly need to get work as done as fast as possible, the most economical way to use SageMath on Windows is to simply install the WSL (Windows Subsystem for Linux).  With your favorite search engine, you may find plenty of guides on how to do this online.
+
+As a suggestion the Debian Stable WSL should suffice and feels snappier than the Ubuntu LTS WSL.  Anyways, the Debian Stable WSL should have a version of SageMath, though not the latest, that will be more than sufficient to run this SageMath script.
+
+I only realized this after the research project was done.  However, there also must have been some sort of WSL availability aspect at the time, since I do not recall being able to install the WSL until later in the summer of 2019.
 
 ## Other Remarks for the Future
 
