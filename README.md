@@ -49,7 +49,7 @@ $ python <coxeter-group>.sage.py
 
 This is because Python requires the SageMath library to be imported and thus doesn't "know" SageMath by default.  I believe it would require prefixing the Sage script with 1-line to run the Sage script in plain Python (back in 2019), but it can be avoided by simply using `sage` to execute the script.
 
-Since the SageMath migration to Python 3, I think Sage's default behavior is to add this import preamble to the corresponding `.py` file that is automatically generated, but that seems to be an improvement added to Sage since May 2019 - usiing `sage` to execute `.sage` scripts will always work.
+Since the SageMath migration to Python 3, I think Sage's default behavior is to add this import preamble to the corresponding `.py` file that is automatically generated, but that seems to be an improvement added to Sage since May 2019 - using `sage` to execute `.sage` scripts will always work.
 
 ## Other Remarks for the Future
 
