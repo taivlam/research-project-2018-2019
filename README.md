@@ -7,11 +7,15 @@ This repository contains my research project from 2018 to 2019.
 The upload of this project serves two purposes:
 
 1.  To be an easy to browse location of my research project to share in the future, and
-2.  To preserve my work, because I find myself relearning the lesson of backing up my files when I don't have a complete backup.
+2.  To preserve my work, because I find myself always relearning the lesson of backing up my files when I don't have a complete backup.
 
 ## Description
 
-(I will add a tiny bit more to describe the project and presentation...)
+This computational mathematical physics research project was completed between 2019-2019 and was done to fulfill a physics research project for credit.  This research project also satisfied the Honors Thesis requirement for the Honors College, which culimated with an in-person presentation.
+
+The research project is titled, "Classification of Pseudo-cuspidal Points for Integrable Systems with Delta-Potential," and the abstract is as follows (with some loss of LaTeX math formatting):
+
+> For exactly solvable quantum integrable systems with delta potential, we use the language of kaleidoscopes to classify the fully determined stable solutions, which we call pseudo-cupsidal points, for any finite Coxeter group *G*, using an algorithm. The algorithm is written in SageMath and the pseudo-cupsidal points for Coxeter group types A<sub>1</sub> , C<sub>2</sub> , and F<sub>4</sub> are classified as test cases for the algorithm.
 
 ### The Time Capsule Nature of This Project
 
@@ -31,9 +35,9 @@ Therefore, I have created 2 versions of my undergraduate research project:
 * SSHFS (to transfer files between a remote server)
 * Git version control (on Keybase)
 * LaTeX (BibTeX and bibliography styles, custom commands, nonbreaking spaces with `~`, and more)
-* how to read scientific papers.
+* how to read scientific papers
 
-The last one needs some elaboration: although it is more of an art than a scientific procedure or reproducible algorithm, I learned reading scientific papers is so much easier when you have a clear motive or purpose and actionable goals when weeding the important details from the unimportant details while reading.
+"How to read scientific papers" requires some elaboration: although it is more of an art than a scientific procedure or reproducible algorithm, I learned reading scientific papers is so much easier when you have a clear motive or purpose and actionable goals when weeding the important details from the unimportant details while reading.
 
 * Most of all, I learned how to learn long-term physics - which is drastically different than taking semester-long physics classes.
 
@@ -71,9 +75,13 @@ Since the SageMath migration to Python 3, I think Sage's default behavior is to 
 
 For Windows 10 users who can't realistically install Linux on another machine and truly need to get work as done as fast as possible, the most economical way to use SageMath on Windows is to simply install the WSL (Windows Subsystem for Linux).  With your favorite search engine, you may find plenty of guides on how to do this online.
 
-As a suggestion the Debian Stable WSL should suffice and feels snappier than the Ubuntu LTS WSL.  Anyways, the Debian Stable WSL should have a version of SageMath, though not the latest, that will be more than sufficient to run this SageMath script.
+As a suggestion, the Debian Stable WSL should suffice and feels snappier than the Ubuntu LTS WSL.  Anyways, the Debian Stable WSL should have a version of SageMath, though not the latest, that will be more than sufficient to run this SageMath script.  The latest version is not required to do mathematics with Coxeter groups.
 
 I only realized this after the research project was done.  However, there also must have been some sort of WSL availability aspect at the time, since I do not recall being able to install the WSL until later in the summer of 2019.
+
+### Ballpark Benchmarks for Script Runtime
+
+(To be added...)
 
 ## Other Remarks for the Future
 
