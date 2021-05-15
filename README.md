@@ -43,7 +43,7 @@ Therefore, I have created 2 versions of my undergraduate research project:
 
 ## Requirements to Run the SageMath Script
 
-I am explaining this as if I am talking about the research project to another STEM college friend, who doesn't know the literal research topic I have learned but is certainly capable of understanding the underlying mathematics.
+I am explaining this as if I am talking about the research project to another STEM college friend, who doesn't know the research topic I have learned but is certainly capable of understanding the underlying mathematics.
 
 * SageMath (readily available in nearly all Linux distros - just don't use the non-LTS latest point release of Ubuntu, since SageMath may not be available immediately after the most current point release date)
 * Linux (makes installing and using SageMath a breeze, just like LaTeX - you can stll use Windows or MacOS, but it's much more of a hassle)
@@ -81,7 +81,9 @@ I only realized this after the research project was done.  However, there also m
 
 ### Ballpark Benchmarks for Script Runtime
 
-(To be added...)
+For finite Coxeter group *F<sub>4</sub>*, the script needed about 14 days to execute on a virtualized remote server with a Core 2 Duo processor; and 3 days, 3 hours, and 35 minutes to turn locally on a Surface Pro 4 (Intel i5 processor, 4GB of RAM).
+
+For finite Coxeter groups *A<sub>1</sub>* and *C<sub>2</sub>*, the script finishes basically instantly for the former and at most takes 5 seconds for the latter.
 
 ## Other Remarks for the Future
 
