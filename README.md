@@ -85,6 +85,8 @@ For finite Coxeter group *F<sub>4</sub>*, the script needed about 14 days to exe
 
 For finite Coxeter groups *A<sub>1</sub>* and *C<sub>2</sub>*, the script finishes basically instantly for the former and at most takes 5 seconds for the latter.
 
+These are to be taken as rough ballpark estimations.
+
 ## Other Remarks for the Future
 
 * I would not use `algorithm2e` as a pseudocode environment in LaTeX again if I had to do another research project for long pseudocode sections that spill onto new pages.  This is because I found myself manually breaking pseudo sections by hand in order to avoid running pseudocode off the page in LaTeX - this is not a very extensible manner of doing things.  I invest time in the future to learn how to use pseudocode environment that can handle page breaks much better.
