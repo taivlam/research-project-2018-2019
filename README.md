@@ -81,7 +81,7 @@ I only realized this after the research project was done.  However, there also m
 
 ### Ballpark Benchmarks for Script Runtime
 
-For finite Coxeter group *F<sub>4</sub>*, the script needed about 14 days to execute on a virtualized remote server with a Core 2 Duo processor; and 3 days, 3 hours, and 35 minutes to turn locally on a Surface Pro 4 (Intel i5 processor, 4GB of RAM).
+For finite Coxeter group *F<sub>4</sub>*, the script needed about 14 days to execute on a virtualized remote server with a Core 2 Duo processor; and 3 days, 3 hours, and 35 minutes to turn locally on a Surface Pro 4 (Intel i5 processor, 8GB of RAM).
 
 For finite Coxeter groups *A<sub>1</sub>* and *C<sub>2</sub>*, the script finishes basically instantly for the former and at most takes 5 seconds for the latter.
 
